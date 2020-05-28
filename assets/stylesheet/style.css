@@ -69,7 +69,6 @@ strong {
 }
 
 /* * Main Header */
-
 .carousel-inner{
   margin-top: 5%;
   margin-bottom: 5%;
@@ -86,8 +85,33 @@ strong {
   background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) );
   color: white;
   line-break: 2;
+  margin-bottom: 30%;
+  border-radius: 2%;
+}
+.box .row{
+  margin-top: -20%;
+  margin-left: -10%;
   margin-bottom: 5%;
-  border-radius: 5%;
+  position: relative;
+}
+.box .row .col-lg-2{
+  background: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5) );
+  color: #ffffff;
+  width: 100%;
+  margin-left: 7%;
+}
+.box .row .col-lg-2 h4{
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+.box .row .col-lg-2 p{
+  font-size: 1rem;
+  padding: 0;
+  text-align: left;
+}
+.box .row .col-lg-2:hover{
+  transform: scale(1.5);
+  outline: 2px solid #FFF;
 }
 /* * News and Insights Section */
 .news-insights {
@@ -252,17 +276,26 @@ figure figcaption {
 /* * Footer */
 .center{
   margin-left: 20%;
+  
+}
+.center input{
+  margin-left: 20%;
+  width: 100%;
 }
 .center button{
-  float: right;
+  margin-left: 20%;
+  margin-top: 3%;
 }
+/* .center button{
+  margin-left: 10%;
+  margin-top: -6%;
+} */
 #footer{
   background-color: #393e46;
   color: white;
-  /* padding: 5px; */
-  /* padding-right: 0%; */
-  margin-top: 5%;
+  margin-top: -2.99%;
   line-height: 2;
+  padding-left: 2%;
 }
 #footer h4{
   border: 5px solid red;
@@ -282,6 +315,7 @@ figure figcaption {
 }
 .sub{
   height: 50%;
+  
 }
 .fb{
   color: #323edd;
@@ -324,17 +358,37 @@ figure figcaption {
     padding: 0;
   }
   .carousel-item img{
-    width: 100%;
+    width: auto;
+    height: 400px;
+  }
+  .carousel-caption{
+    font-size: xx-small;
+  }
+  .box .row{
+    margin-top: 5%;
+    position: relative;
+  }
+  .box .row .col-lg-2{
+    background-image: linear-gradient(to left bottom, #111410, #20351b, #2d5923, #3b8028, #4aa82b);
+    color: #ffffff;
+    width: fit-content;
+    padding-right: 20px;
+    margin-bottom: 3%;
+    width: 90%;
+    font-size: 1rem;
+  }
+  .box .row .col-lg-2 button{
+    margin-bottom: 2%;
+    font-size: 1rem;
   }
   /* footer */
   .center{
     margin-left: 5%;
   }
-  .center .form-control{
-    width: 100%;
-    
-  }
   .center .col-sm-6{
     width: 50%;
+  }
+  #footer{
+    margin-top: -2.9%;
   }
 }
