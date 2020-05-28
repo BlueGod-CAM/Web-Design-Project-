@@ -283,6 +283,54 @@ figure figcaption {
 .lin{
   color: lightskyblue;
 }
+/* Fees */
+.img-hero{
+  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.5));
+  filter: blur(50%);
+  background-image:  url("https://niptict.edu.kh/wp-content/uploads/2019/06/feature1.jpg");
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.text-hero{
+  text-align: center;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: whitesmoke;
+  
+}
+.text-hero a,.container b{
+  color: black;
+  font-weight: 900;
+}
+/* traing */
+.traning{
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.traning li{
+  list-style-type: none;
+}
+.traning a{
+  text-decoration: none;
+  color: black;
+  line-height: 2;
+}
+.traning a:hover{
+  color: red;
+}
+/* tech */
+.container{
+  line-height: 2;
+  padding: 2%;
+}
+img{
+  padding: 1%;
+}
 /* * Mobile Screen Sizes */
 @media only screen and (max-width: 576px) {
 
