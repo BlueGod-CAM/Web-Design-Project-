@@ -407,6 +407,9 @@ img{
     margin-top: 0;
     height: 60%;
   }
+  .carousel-inner img{
+    padding: 0;
+  }
   .container{
     margin: 0;
     padding: 0;
