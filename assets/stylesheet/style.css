@@ -75,6 +75,9 @@ strong {
   text-align: center;
   
 }
+.carousel-inner img{
+  width: 100%;
+}
 .carousel-caption:hover{
   transform: scale(1.02);
   outline: 2px solid #FFF;
@@ -112,6 +115,21 @@ strong {
 .box .row .col-lg-2:hover{
   transform: scale(1.5);
   outline: 2px solid #FFF;
+}
+/* Meet Our Lect */
+.card-img{
+  width: 100%;
+  margin: auto;
+}
+
+.card{
+  margin-bottom: 13%;
+}
+
+.card-title
+{
+  text-align: center;
+  font-size: 1rem;
 }
 /* * News and Insights Section */
 .news-insights {
@@ -419,7 +437,9 @@ img{
     height: 400px;
   }
   .carousel-caption{
-    font-size: xx-small;
+    margin-bottom: -5px;
+    font-size: medium;
+    width: 70%;
   }
   .box .row{
     margin-top: 5%;
