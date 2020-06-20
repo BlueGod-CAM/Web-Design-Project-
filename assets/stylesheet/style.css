@@ -359,7 +359,8 @@ figure figcaption {
   height: 200px;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 100% 100%;
+  background-attachment: fixed;
   position: relative;
 }
 .text-hero{
