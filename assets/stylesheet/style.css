@@ -70,8 +70,7 @@ strong {
 
 /* * Main Header */
 .carousel-inner{
-  margin-top: 1%;
-  margin-bottom: 1%;
+  
   text-align: center;
   
 }
@@ -293,6 +292,7 @@ figure figcaption {
 
 /* * Footer */
 .center{
+  margin-top: -10%;
   margin-left: 20%;
   
 }
@@ -372,6 +372,7 @@ figure figcaption {
   color: whitesmoke;
   
 }
+
 .text-hero a,.container b{
   color: black;
   font-weight: 900;
