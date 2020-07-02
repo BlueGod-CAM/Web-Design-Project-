@@ -1,17 +1,4 @@
-var ARTICLEAPP = (function () {
-    const modeToggleButton = document.querySelector(".btn-mode-toggle");
-
-    let toggleMode = () => {
-        console.log("hi");
-    };
-
-    return {
-        toggleMode
-    };
-});
-
 (() => {
-    console.log("hello");
     document.querySelector(".btn-mode-toggle").addEventListener("click", () => {
         document.querySelector('body').classList.toggle("dark");
         document.querySelector(".fas").classList.toggle("fa-moon");
